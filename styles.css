@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body{
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    margin: 0%;
+    padding: 0%;
+    /* background-image:repeating-linear-gradient(to right, white,red, black); */
+}
+
+.container{
+    width: 25%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0);
+    text-align: center;
+}
+
+.profile-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h1{
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-style: normal;
+}
+h4{
+    font-size: 18px;
+    margin-top: -1px;
+    color: yellowgreen;
+}
+
+p{
+    font-size: 16px;
+    margin-top: 10%;
+}
+
+
+.social-media{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+.social-media li{
+    margin: 10px 0;
+
+}
+
+.social-media a{
+    display: block;
+    padding: 10px;
+    background-color: #2d2d2d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+}
+
+ .social-media a:hover{
+    background-color: #3e3e3e;
+ }
+
+.attribution{
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+    
+}
+
+
